@@ -1,0 +1,35 @@
+body {
+  margin: 2rem 10rem 15rem 10rem;
+  padding: 1rem 10rem 5rem 10rem;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 2rem 5rem;
+  padding: 2rem 10rem;
+  border-radius: 3rem;
+}
+th {
+  color: white;
+  background-color: #04aa04;
+  text-align: left;
+  padding: 8px;
+}
+td {
+  text-align: left;
+  padding: 8px;
+  height: 32px;
+}
+tr:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+h2 {
+  text-align: center;
+  text-shadow: 2px 5px 10px #04aa04;
+  color: black;
+  font-size: 2em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+tr :hover {
+  background-color: #4cb14c;
+}
